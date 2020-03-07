@@ -196,14 +196,14 @@ http://insanecoding.blogspot.com/2007/11/pathmax-simply-isnt.html */
 #endif
 
 
-namespace POETS
+namespace OSFixes
 {
     /* Returns the directory component of 'fullPath'. Don't pass in a path to a
      * directory unless you know what you're doing. */
     inline std::string dirname(std::string fullPath)
     {
         #ifdef _WIN32
-        printf("[POETS::dirname] MLV should edit this to use "
+        printf("[OSFixes::dirname] MLV should edit this to use "
                "Generics/filename!\n"); // <!>
         return "";
         #else
