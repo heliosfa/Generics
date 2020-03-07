@@ -160,12 +160,12 @@ namespace OSFixes
 #define HOSTNAME_LENGTH 128
 #endif
 
-namespace POETS
+namespace OSFixes
 {
     inline std::string get_hostname()
     {
         #ifdef _WIN32
-        printf("[POETS::get_hostname] MLV should edit this to use "
+        printf("[OSFixes::get_hostname] MLV should edit this to use "
                "GetComputerNameExA!\n"); // <!>
         return "";
         #else
